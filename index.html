@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="shortcut icon" href="icon/favicon.png">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.7.1/pixi.min.js"></script>
+    <script src="snow.min.js"></script>
+    <title>Груминг салон Муси Пуси г. Тюмень</title>
+</head>
+
+<body>
+    <div class="page">
+        <div id="head" class="header">
+            <div class="header-box">
+                <div class="logo-main">
+                    <div class="header-logo"><a class="up-link" href="#head"><img class="logo-image" src="icon/logo.png"
+                                alt="Логотип Муси пуси" width="100%"></a></div>
+                    <div class="burger"><span class="nav-burger"></span></div>
+                    <nav class="header-main">
+                        <ul class="main">
+                            <li class="list header-list"><a class="link nav-link" href="#stream">Онлайн трансляция</a>
+                            </li>
+                            <li class="list header-list"><a class="link nav-link" href="#price-list">Прайс</a></li>
+                            <li class="list header-list"><a class="link nav-link" href="#photos">Фото</a></li>
+                            <li class="list header-list"><a class="link nav-link" href="#review">Отзывы</a></li>
+                            <li class="list header-list"><a class="link nav-link" href="#contact">Контакты</a></li>
+                        </ul>
+                    </nav>
+                    <form class="form-button record"><button class="button record-button"><a class="link link-record"
+                                href="https://dikidi.net/g297224">Онлайн запись</a></button></form>
+                </div>
+            </div>
+            <div class="banner">
+                <h1 class="title header-title">Груминг салон Муси Пуси<br>г. Тюмень</h1>
+                <!--<div class="stock">--><!--  <h2 class="title stock-title">Скидка 10%</h2>--><!--  <p class="stock-text">--><!--    на первый комплекс по кодовому слову "Хочу скидку"--><!--  </p>--><!--</div>-->
+            </div>
+        </div>
+        <div class="content">
+            <main id="price-list" class="service-price">
+                <h3 class="title service-title">Наши услуги</h3>
+                <div class="subtitle">более 500 довольных хвостиков и их хозяев</div>
+                <section class="service-container">
+                    <div class="service-box">
+                        <div class="title-price">
+                            <h4 class="title service">Стрижка кошек</h4>
+                            <div class="price">от 1400 &#8381</div>
+                        </div>
+                        <p class="service-info">Стрижка под машинку без использования седативных препаратов.<br>Обрезка
+                            когтей и чистка ушей в подарок.</p>
+                    </div>
+                    <div class="service-box">
+                        <div class="title-price">
+                            <h4 class="title service">Пудель карликовый комплекс</h4>
+                            <div class="price">от 2100 &#8381</div>
+                        </div>
+                        <p class="service-info">Расчесывание, мытье проф. косметикой, сушка, стрижка, обрезка и
+                            подпиливание когтей, чистка ушей.</p>
+                    </div>
+                    <div class="service-box">
+                        <div class="title-price">
+                            <h4 class="title service">Йоркширский терьер комплекс</h4>
+                            <div class="price">от 1800 &#8381</div>
+                        </div>
+                        <p class="service-info">Мытье проф. косметикой, сушка, стрижка, обрезка и подпиливание когтей,
+                            чистка ушей.</p>
+                    </div>
+                    <div class="service-box">
+                        <div class="title-price">
+                            <h4 class="title service">Лабрадор комплекс</h4>
+                            <div class="price">от 2500 &#8381</div>
+                        </div>
+                        <p class="service-info">Вычесывание, мытье проф. косметикой, выдув шерсти компрессором, обрезка
+                            и подпиливание когтей, чистка ушей.</p>
+                    </div>
+                    <div class="service-box">
+                        <div class="title-price">
+                            <h4 class="title service">Шпиц комплекс</h4>
+                            <div class="price">от 1800 &#8381</div>
+                        </div>
+                        <p class="service-info">Вычесывание, мытье проф. косметикой, сушка, стрижка по породе, обрезка и
+                            подпиливание когтей, чистка ушей.</p>
+                    </div>
+                    <div class="service-box">
+                        <div class="title-price">
+                            <h4 class="title service">Самоед комплекс</h4>
+                            <div class="price">от 3000 &#8381</div>
+                        </div>
+                        <p class="service-info">Вычесывание, мытье проф. косметикой, выдув шерсти компрессором, обрезка
+                            и подпиливание когтей, чистка ушей.</p>
+                    </div>
+                    <div class="service-box">
+                        <div class="title-price">
+                            <h4 class="title service">Спаниель комплекс</h4>
+                            <div class="price">от 2000 &#8381</div>
+                        </div>
+                        <p class="service-info">Мытье проф. косметикой, сушка, стрижка, обрезка и подпиливание когтей,
+                            чистка ушей.</p>
+                    </div>
+                    <div class="service-box">
+                        <div class="title-price">
+                            <h4 class="title service">Ньюфаундленд комплекс</h4>
+                            <div class="price">от 5000 &#8381</div>
+                        </div>
+                        <p class="service-info">Расчесывание, мытье проф. косметикой, сушка, окантовка, обрезка и
+                            подпиливание когтей, чистка ушей.</p>
+                    </div>
+                </section>
+                <form class="form-button full-price"><button class="button price-button"><a class="link price-link"
+                            href="https://dikidi.net/g297224">Полный прайс</a></button></form>
+                <section id="photos" style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+                    class="swiper mySwiper2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img class="gallery-photo" src="photo/1.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="gallery-photo" src="photo/2.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="gallery-photo" src="photo/3.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="gallery-photo" src="photo/4.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="gallery-photo" src="photo/5.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="gallery-photo" src="photo/6.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="gallery-photo" src="photo/7.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="gallery-photo" src="photo/8.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="gallery-photo" src="photo/9.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="gallery-photo" src="photo/10.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="gallery-photo" src="photo/11.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="gallery-photo" src="photo/12.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="gallery-photo" src="photo/13.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="gallery-photo" src="photo/14.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="gallery-photo" src="photo/15.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="gallery-photo" src="photo/16.jpg" alt="">
+                        </div>
+                        <!-- <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div> -->
+                    </div>
+                    <div thumbsSlider="" class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img class="preview"  src="photo/1.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="preview" src="photo/2.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="preview" src="photo/3.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="preview" src="photo/4.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="preview" src="photo/5.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="preview" src="photo/6.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="preview" src="photo/7.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="preview" src="photo/8.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="preview" src="photo/9.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="preview" src="photo/10.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="preview" src="photo/11.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="preview" src="photo/12.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="preview" src="photo/13.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="preview" src="photo/14.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="preview" src="photo/15.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="preview" src="photo/16.jpg" />
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- <div class="photo-img"><img class="photo" src="image/Angri cat.jpg" alt="фото результата работы">
+                    </div>
+                    <div class="photo-img"><img class="photo" src="image/British cat.jpg" alt="фото результата работы">
+                    </div>
+                    <div class="photo-img"><img class="photo" src="image/Dog 2.jpg" alt="фото результата работы"></div>
+                    <div class="photo-img"><img class="photo" src="image/Dog 3.jpg" alt="фото результата работы"></div>
+                    <div class="photo-img"><img class="photo" src="image/Dog 4.jpg" alt="фото результата работы"></div>
+                    <div class="photo-img"><img class="photo" src="image/Dog 5.jpg" alt="фото результата работы"></div>
+                    <div class="photo-img"><img class="photo" src="image/Dog paw.jpg" alt="фото результата работы">
+                    </div>
+                    <div class="photo-img"><img class="photo" src="image/Dog.jpg" alt="фото результата работы"></div>
+                    <div class="photo-img"><img class="photo" src="image/employees.jpg" alt="фото результата работы">
+                    </div>
+                    <div class="photo-img"><img class="photo" src="image/Husky.jpg" alt="фото результата работы"></div>
+                    <div class="photo-img"><img class="photo" src="image/Rad wool 2.jpg" alt="фото результата работы">
+                    </div>
+                    <div class="photo-img"><img class="photo" src="image/Skin cat.jpg" alt="фото результата работы">
+                    </div>
+                    <div class="photo-img"><img class="photo" src="image/Spitz.jpg" alt="фото результата работы"></div>
+                    <div class="photo-img"><img class="photo" src="image/wool.jpg" alt="фото результата работы"></div>
+                    <div class="photo-img"><img class="photo" src="image/Red wool.jpg" alt="фото результата работы">
+                    </div> -->
+                </section>
+                <section id="stream" class="online-streaming">
+                    <div class="streaming">
+                        <h4 class="title streaming-title">Онлайн трансляция</h4>
+                    </div>
+                    <p class="cam-text">Наблюдай за своим питомцем в прямом эфире</p>
+                    <div class="cam-container">
+                        <div>
+                            <h5 class="title cam-title">Салон на ул. Вьюжная, 8</h5>
+                        </div>
+                        <div class="cam cam-one"><iframe width="100%" height="100%"
+                                src="https://rtsp.me/embed/KyYyrZnk /" frameborder="0" allowfullscreen></iframe></div>
+                        <div class="cam cam-two"><iframe width="100%" height="100%"
+                                src="https://rtsp.me/embed/dBaH5GZr/" frameborder="0" allowfullscreen></iframe></div>
+                        <div>
+                            <h5 class="title cam-title">Салон на ул. Республика, 164</h5>
+                        </div>
+                        <div class="cam cam-three"><iframe width="100%" height="100%"
+                                src="https://rtsp.me/embed/EB7atNKF/" frameborder="0" allowfullscreen></iframe></div>
+                        <div>
+                            <h5 class="title cam-title">Салон на ул. Сергея Джанбровского, 19</h5>
+                        </div>
+                        <div class="cam cam-three"><iframe width="100%" height="100%"
+                                src="https://ipeye.ru/ipeye_service/api/iframe.php?iframe_player=1&dev=493984e703614ee5ba5c22e4540db2cf&autoplay=0&archive=1"
+                                frameborder="0" allowfullscreen></iframe></div>
+                    </div>
+                </section>
+                <section id="review" class="reviews">
+                    <h3 class="title slider-title">Отзывы наших любимых клиентов</h3>
+                    <div class="slider">
+                        <div class="slides"><input type="radio" name="r" id="r1" checked> <input type="radio" name="r"
+                                id="r2"> <input type="radio" name="r" id="r3"> <input type="radio" name="r" id="r4">
+                            <input type="radio" name="r" id="r5"> <input type="radio" name="r" id="r6"> <input
+                                type="radio" name="r" id="r7">
+                            <div class="slide s1"><!-- Контент 1 слайда -->
+                                <p class="slide-text">Крайне редко пишу отзывы, но тут не удержалась. Обычно вожу свою
+                                    кошечку в другое место, ближе к дому, но ради такого я готова и проехаться. Сервис
+                                    на высоте: приятная атмосфера, предложили чай/кофе, нашли подход к кошке, приемлемые
+                                    цены! Все супер, будем приходить еще😊💋</p>
+                                <h5 class="title title-autor">Ирина Ромашева</h5>
+                                <p class="source">Источник: 2-GIS</p>
+                            </div>
+                            <div class="slide"><!-- Контент 2 слайда -->
+                                <p class="slide-text">Сводили нашу Маркизу на стрижку. Давно собирались, но все
+                                    откладывали. Быстро все сделали и качественно. Теперь дома намного меньше шерсти, а
+                                    когда у тебя появился ребёнок это особенно актуально.</p>
+                                <h5 class="title title-autor">Эль М</h5>
+                                <p class="source">Источник: 2-GIS</p>
+                            </div>
+                            <div class="slide"><!-- Контент 3 слайда -->
+                                <p class="slide-text">Очень нам понравилось. Внимательные сотрудники, которые любят
+                                    животных. Хороший сервис. Будем теперь вашими постоянными клиентами</p>
+                                <h5 class="title title-autor">Наталья Дюжаева</h5>
+                                <p class="source">Источник: 2-GIS</p>
+                            </div>
+                            <div class="slide"><!-- Контент 4 слайда -->
+                                <p class="slide-text">Отличный сервис, все очень понравилось. Пса вычесали очень
+                                    тщательно, терпеливо отнеслись к его возмущениям. Однозначно будем чесаться тут :)
+                                </p>
+                                <h5 class="title title-autor">Kate Grump</h5>
+                                <p class="source">Источник: 2-GIS</p>
+                            </div>
+                            <div class="slide"><!-- Контент 5 слайда -->
+                                <p class="slide-text">Приятная обстановка, профессиональные мастера👍 очень понравилась
+                                    работа!! Будем обращаться ещё)</p>
+                                <h5 class="title title-autor">ksusha-artemina</h5>
+                                <p class="source">Источник: 2-GIS</p>
+                            </div>
+                            <div class="slide"><!-- Контент 6 слайда -->
+                                <p class="slide-text">Ходим в ваш салон уже не в первый раз, все идеально, прекрасные
+                                    мастера, качество выполненных работ на высшем уровне☺️☺️☺️</p>
+                                <h5 class="title title-autor">Anastasia Nosacheva</h5>
+                                <p class="source">Источник: 2-GIS</p>
+                            </div>
+                            <div class="slide"><!-- Контент 7 слайда -->
+                                <p class="slide-text">Спасибо большое за чудесную работу. Довольны и хозяюшка и песель.
+                                    Очень аккуратно и красиво все сделано. Ждём курточку и новых встреч!</p>
+                                <h5 class="title title-autor">Евгения Альберт</h5>
+                                <p class="source">Источник: 2-GIS</p>
+                            </div>
+                        </div>
+                        <div class="slider-navigation"><label for="r1" class="bar"></label> <label for="r2"
+                                class="bar"></label> <label for="r3" class="bar"></label> <label for="r4"
+                                class="bar"></label> <label for="r5" class="bar"></label> <label for="r6"
+                                class="bar"></label> <label for="r7" class="bar"></label></div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="contacts"><a class="up-link" href="#head"><img id="contact" class="footer-logo" src="icon/logo.png"
+                    alt="Логотип Муси пуси"></a></div>
+        <div class="telephon"><a class="tel" href="tel:+79068754659"><span class="number">+7 906 875 46 59</span></a>
+        </div>
+        <p class="contacts-text">работаем по предварительной записи</p>работаем по предварительной записи<div
+            class="post"><a class="post-address" href="mailto:y.a.fateev@mail.ru">y.a.fateev@mail.ru</a></div>
+        <p class="address-coment"><span class="we">Мы находимся:</span><br>ул. Вьюжная, 8 (вход со двора)<br>ул.
+            Республики, 164 (вход из сквера)<br>ул. Сергея Джанбровского, 19 (вход со двора)<br>г. Тюмень</p>
+        <div class="social-link"><a href="https://vk.com/musipusi_groom"><img class="vk" src="icon/VK white.png"
+                    alt="В контакте"></a></div>
+    </div>
+    <div class="map">
+        <script type="text/javascript" charset="utf-8" async
+            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad24080f355b14c48959d9e817e13c25f5bc0b559053cc45a9284dc44ddfbfd4d&amp;width=100%25&amp;height=600&amp;lang=ru_RU&amp;scroll=true"></script>
+    </div>
+    <div class="right">
+        <div class="text text-right">© 2022 MusiPusi groom<br>работаем с 2017 года<div class="telega">
+                <div>Разработка сайта</div>
+                <div><a href="https://t.me/VladkoFateich"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17"
+                            viewBox="0 0 240 240">
+                            <linearGradient id="a" x1="-683.305" x2="-693.305" y1="534.845" y2="511.512"
+                                gradientTransform="matrix(6 0 0 -6 4255 3247)" gradientUnits="userSpaceOnUse">
+                                <stop offset="0" stop-color="#37aee2" />
+                                <stop offset="1" stop-color="#1e96c8" />
+                            </linearGradient>
+                            <path fill="url(#a)"
+                                d="M240 120c0 66.3-53.7 120-120 120S0 186.3 0 120 53.7 0 120 0s120 53.7 120 120z" />
+                            <path fill="#c8daea"
+                                d="M98 175c-3.9 0-3.2-1.5-4.6-5.2L82 132.2 152.8 88l8.3 2.2-6.9 18.8L98 175z" />
+                            <path fill="#a9c9dd"
+                                d="M98 175c3 0 4.3-1.4 6-3 2.6-2.5 36-35 36-35l-20.5-5-19 12-2.5 30v1z" />
+                            <linearGradient id="b" x1="128.991" x2="153.991" y1="118.245" y2="78.245"
+                                gradientTransform="matrix(1 0 0 -1 0 242)" gradientUnits="userSpaceOnUse">
+                                <stop offset="0" stop-color="#eff7fc" />
+                                <stop offset="1" stop-color="#fff" />
+                            </linearGradient>
+                            <path fill="url(#b)"
+                                d="M100 144.4l48.4 35.7c5.5 3 9.5 1.5 10.9-5.1L179 82.2c2-8.1-3.1-11.7-8.4-9.3L55 117.5c-7.9 3.2-7.8 7.6-1.4 9.5l29.7 9.3L152 93c3.2-2 6.2-.9 3.8 1.3L100 144.4z" />
+                        </svg></a></div>
+
+            </div>
+            <div class="requisites">
+                ИП Фатеев Ярослав Андреевич
+                ИНН: 450163253699
+                ОГРНИП: 321723200044817
+                г. Тюмень, ул. Ледниковый проезд, 1
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="slider.js"></script>
+
+</body>
+
+</html>
