@@ -97,7 +97,7 @@ html {
 }
 .header-box {
   width: 100%;
-  height: 100px;
+  /* height: 100px; */
   background-color: #4f4f4f;
   position: fixed;
   z-index: 30;
@@ -114,7 +114,7 @@ html {
 }
 .footer-logo,
 .header-logo {
-  width: 200px;
+  width: 130px;
 }
 .header-main {
   margin: auto;
@@ -123,10 +123,11 @@ html {
   display: flex;
   gap: 3%;
   font-family: Roboto-Bold;
-  font-size: 20px;
+  font-size: 18px;
   color: #fff;
   text-align: center;
   align-items: center;
+  white-space: nowrap;
 }
 .nav-link,
 .stock-title,
@@ -157,7 +158,7 @@ html {
   background-image: url(../image/background.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: cover;
+  /* background-size: contain; */
   background-position: center;
   text-align: center;
   color: #fff;
