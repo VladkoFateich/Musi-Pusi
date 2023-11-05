@@ -281,9 +281,9 @@ html {
   height: 100%;
   object-fit: contain;
 }
-/* .gallery-photo {
+.gallery-photo {
   height: 75vh;
-} */
+}
 .swiper {
   width: 100%;
   height: 100%;
@@ -687,6 +687,9 @@ input[name="r"] {
   .service-price {
     padding-top: 65px;
     margin-top: -40px;
+  }
+  .gallery-photo {
+    height: 60vh;
   }
 }
 @media (max-width: 767px) and (orientation: landscape) {
