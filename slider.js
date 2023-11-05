@@ -1,10 +1,11 @@
 let swiper = new Swiper(".mySwiper", {
   loop: true,
   spaceBetween: 10,
-  slidesPerView: 16,
+  slidesPerView: 4,
   breakpoints: {
-    340: { slidesPerView: 5 },
-    740: {slidesPerView: 9,},
+    481: { slidesPerView: 8 },
+    769: { slidesPerView: 12 },
+    1280: { slidesPerView: 16 },
   },
   freeMode: true,
   watchSlidesProgress: true,
